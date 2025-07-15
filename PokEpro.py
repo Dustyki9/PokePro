@@ -1,5 +1,4 @@
 import time
-import typing
 import difflib  # for fuzzy matching
 from colorama import init, Fore, Style
 
@@ -305,6 +304,13 @@ def print_pokemon_info(number):
     print(Fore.BLUE + f"  Strengths: {', '.join(pokemon['Strength']) or 'None'}")
     print(Fore.RED + f"  Weaknesses: {', '.join(pokemon['Weakness']) or 'None'}\n")
 
+def list_all_pokemon(pokedex):
+    print(Fore.CYAN + "\n--- Pokédex Entries ---")
+    for number in sorted(pokedex.keys()):
+        name = pokedex[number]["name"]
+        print(Fore.YELLOW + f"#{number:03d} - {name}")
+    print()
+
 def blinking_dots(message="Loading", cycles=3, delay=0.4):
     for _ in range(cycles):
         for dots in ['.', '..', '...']:
@@ -346,7 +352,7 @@ def main():
             continue
 
         if user_input == "list":
-            list_all_pokemon()
+            list_all_pokemon(pokemon_by_number)
             continue
 
         # what if number
