@@ -6,3 +6,4 @@ might bring this up to current gen....one.....gen...at...a..time
 
 TODO
 Gen 2 - august 
+Genn 3 - aug/sept
