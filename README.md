@@ -3,3 +3,6 @@ Wanted to help a friend out that was playing  Gen 1 pokemon nuzlock but kept on 
 thought it would be fun so i did it.  I wish them luck in thier challenge. 
 
 might bring this up to current gen....one.....gen...at...a..time
+
+TODO
+Gen 2 - august 
