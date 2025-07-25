@@ -290,6 +290,9 @@ pokemon_by_number = {
 
 pokemon_by_name = {info["name"].lower(): number for number, info in pokemon_by_number.items()}
 
+def search_pokemon_by_partial_name(partial_name):
+    return [name for name in pokemon_by_name if partial_name in name]
+
 def type_out(text, color=Fore.WHITE, delay=0.02):
     for char in text:
         print(f"{color}{char}", end="", flush=True)
