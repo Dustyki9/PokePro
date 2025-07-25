@@ -5,5 +5,13 @@ thought it would be fun so i did it.  I wish them luck in thier challenge.
 might bring this up to current gen....one.....gen...at...a..time
 
 TODO
-Gen 2 - august 
-Genn 3 - aug/sept
+gen 3 - august 
+Genn 4 - aug/sept
+
+
+
+**CHANGE LOG**
+
+-Fixed Fuzzy 
+-addeed Gen 2 to search 
+-spring cleaning
