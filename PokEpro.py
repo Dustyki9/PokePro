@@ -321,7 +321,7 @@ def blinking_dots(message="Loading", cycles=3, delay=0.4):
 def main():
     history = []
 
-    blinking_dots("Booting PokEpro V1")
+    blinking_dots("Booting PokEpro V2")
     time.sleep(2)
 
     blinking_dots("Loading Pokédex system")
